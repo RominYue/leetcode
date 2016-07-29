@@ -39,12 +39,6 @@ The input prerequisites is a graph represented by **a list of edges**, not adjac
 
 <div>
 
-<div id="company_tags" class="btn btn-xs btn-warning">Show Company Tags</div>
-
-<span class="hidebutton">[Apple](/company/apple/) [Yelp](/company/yelp/) [Zenefits](/company/zenefits/)</span></div>
-
-<div>
-
 <div id="tags" class="btn btn-xs btn-warning">Show Tags</div>
 
 <span class="hidebutton">[Depth-first Search](/tag/depth-first-search/) [Breadth-first Search](/tag/breadth-first-search/) [Graph](/tag/graph/) [Topological Sort](/tag/topological-sort/)</span></div>
