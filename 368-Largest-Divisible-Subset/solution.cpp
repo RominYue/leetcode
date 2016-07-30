@@ -1,3 +1,12 @@
+/*
+For an increasingly sorted array of integers a[1 .. n]
+
+T[n] = the length of the largest divisible subset whose largest number is a[n]
+
+T[n+1] = max{ 1 + T[i] if a[n+1] mod a[i] == 0 else 1 }
+
+Now, deducting T[n] becomes straight forward with a DP trick. For the final result we will need to maintain a backtrace array for the answer.
+*/
 class Solution {
 public:
     vector<int> largestDivisibleSubset(vector<int>& nums) {
