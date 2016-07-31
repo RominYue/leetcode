@@ -36,6 +36,12 @@ You may assume that all words are consist of lowercase letters `a-z`.
 
 <div>
 
+<div id="company_tags" class="btn btn-xs btn-warning">Show Company Tags</div>
+
+<span class="hidebutton">[Facebook](/company/facebook/)</span></div>
+
+<div>
+
 <div id="tags" class="btn btn-xs btn-warning">Show Tags</div>
 
 <span class="hidebutton">[Backtracking](/tag/backtracking/) [Trie](/tag/trie/) [Design](/tag/design/)</span></div>
