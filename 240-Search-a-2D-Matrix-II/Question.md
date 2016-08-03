@@ -32,12 +32,6 @@ Given **target** = `20`, return `false`.
 
 <div>
 
-<div id="company_tags" class="btn btn-xs btn-warning">Show Company Tags</div>
-
-<span class="hidebutton">[Amazon](/company/amazon/) [Apple](/company/apple/) [Google](/company/google/)</span></div>
-
-<div>
-
 <div id="tags" class="btn btn-xs btn-warning">Show Tags</div>
 
 <span class="hidebutton">[Binary Search](/tag/binary-search/) [Divide and Conquer](/tag/divide-and-conquer/)</span></div>
