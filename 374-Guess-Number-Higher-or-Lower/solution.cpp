@@ -15,6 +15,6 @@ public:
             else if(ret < 0) r = mid - 1;
             else l = mid + 1;
         }
-        return l;
+        return -1;
     }
 };
