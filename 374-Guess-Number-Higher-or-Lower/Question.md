@@ -30,12 +30,6 @@ Return 6.
 
 <div>
 
-<div id="company_tags" class="btn btn-xs btn-warning">Show Company Tags</div>
-
-<span class="hidebutton">[Google](/company/google/)</span></div>
-
-<div>
-
 <div id="tags" class="btn btn-xs btn-warning">Show Tags</div>
 
 <span class="hidebutton">[Binary Search](/tag/binary-search/)</span></div>
@@ -44,4 +38,4 @@ Return 6.
 
 <div id="similar" class="btn btn-xs btn-warning">Show Similar Problems</div>
 
-<span class="hidebutton">[(E) First Bad Version](/problems/first-bad-version/)</span></div>
+<span class="hidebutton">[(E) First Bad Version](/problems/first-bad-version/) [(M) Guess Number Higher or Lower II](/problems/guess-number-higher-or-lower-ii/)</span></div>
