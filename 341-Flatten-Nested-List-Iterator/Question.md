@@ -38,4 +38,4 @@ By calling _next_ repeatedly until _hasNext_ returns false, the order of element
 
 <div id="similar" class="btn btn-xs btn-warning">Show Similar Problems</div>
 
-<span class="hidebutton">[(M) Flatten 2D Vector](/problems/flatten-2d-vector/) [(M) Zigzag Iterator](/problems/zigzag-iterator/)</span></div>
+<span class="hidebutton">[(M) Flatten 2D Vector](/problems/flatten-2d-vector/) [(M) Zigzag Iterator](/problems/zigzag-iterator/) [(M) Mini Parser](/problems/mini-parser/)</span></div>
