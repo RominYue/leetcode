@@ -7,6 +7,12 @@
  *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
  * };
  */
+ /*
+ 对于tree的每个节点，维护两个变量
+ 一个变量记录包含当前值的最长递增长度
+ 一个变量记录到目前为止的最长递增长度
+ 最后的结果即为两个变量求max
+ */
 class Solution {
 public:
     int longestConsecutive(TreeNode* root) {
