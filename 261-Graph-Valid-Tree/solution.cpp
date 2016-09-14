@@ -1,3 +1,9 @@
+/*
+Tree Definition
+1. n-1 条边
+2. 连通图
+3. 无环（满足前2个条件，第3个条件也满足）
+*/
 class Solution {
 public:
     
