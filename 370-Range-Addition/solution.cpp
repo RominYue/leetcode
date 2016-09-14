@@ -1,3 +1,9 @@
+/*
+trick 
+update range[l,r]只需要
+update[l] inc , update[r+1], -inc
+然后顺序累加即可
+*/
 class Solution {
 public:
     vector<int> getModifiedArray(int length, vector<vector<int>>& updates) {
