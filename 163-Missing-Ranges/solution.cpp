@@ -1,3 +1,19 @@
+/*
+遍历数组，有以下几种情况
+
+//[lower, upper] 在 nums 的左边
+
+//[lower, uppper] 在 nums的右边
+
+//[lower, uppper] 与nums交叉
+
+if num[i] < lower; continue
+else if num[i] == lower; lower++;
+else if num[i] > lower
+    if(num[i] <= uppper) add range;
+    else num[i] > uppper break;
+*/
+
 class Solution {
 public:
     vector<string> findMissingRanges(vector<int>& nums, int lower, int upper) {
@@ -15,17 +31,9 @@ public:
             return ans;
         }
         
-        //push INT_MAX, consider nums[len-1] < upper
-        //nums.insert(nums.begin(), INT_MIN);
-        //nums.push_back(INT_MAX);
-        
-        //bool first = true;
-        //bool modified_lower = false;
-        int pre = lower;
         for(int i = 0; i < nums.size(); i++)
         {
 
-            //check lower
             if(nums[i] < lower)continue;
             
             if(nums[i] == lower)
@@ -44,7 +52,6 @@ public:
             else tmp = to_string(lower) + "->" + to_string(nums[i]-1);
             ans.push_back(tmp);
             
-            pre = lower;
             lower = nums[i] + 1;
         }
         
