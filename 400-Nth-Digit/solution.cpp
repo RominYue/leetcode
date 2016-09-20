@@ -18,7 +18,6 @@ public:
         
         //第几个数
         start += (long long)ceil(n*1.0/len) - 1;
-        cout<<start<<endl;
         
         string t = to_string(start);
 
