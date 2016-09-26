@@ -20,3 +20,9 @@ There are two left leaves in the binary tree, with values **9** and **15** respe
 [Subscribe](/subscribe/) to see which companies asked this question
 
 </div>
+
+<div>
+
+<div id="tags" class="btn btn-xs btn-warning">Show Tags</div>
+
+<span class="hidebutton">[Tree](/tag/tree/)</span></div>
