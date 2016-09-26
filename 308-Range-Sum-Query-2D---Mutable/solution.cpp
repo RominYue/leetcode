@@ -44,7 +44,6 @@ public:
         int area2 = row1 - 1 < 0? 0: getsum(row1, col2+1);
         int area3 = col1 - 1 < 0? 0: getsum(row2+1, col1);
         int area4 = getsum(row2+1, col2+1);
-        cout<<area4 - area2 - area3 + area1<<endl;
         return area4 - area2 - area3 + area1;
     }
 
