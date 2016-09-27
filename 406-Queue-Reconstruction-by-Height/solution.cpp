@@ -25,7 +25,6 @@ public:
                     
             }
             int num = findKth(people[i].second+1);
-            //cout<<num<<endl;
             ans[num-1] = people[i];
             
             preNum.push_back(num);
@@ -62,7 +61,6 @@ public:
         while(l <= r)
         {
             mid = (l + r) >> 1;
-            //cout<<"mid "<<mid << " " <<getsum(mid)<<endl;
             if(getsum(mid) >= k)r = mid - 1;
             else l = mid + 1;
         }
