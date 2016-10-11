@@ -10,16 +10,16 @@ Given _m_ satisfies the following constraint: 1 ≤ m ≤ length(nums) ≤ 14,00
 **Examples:**
 
 <pre>Input:
-**nums** = [1,2,3,4,5]
+**nums** = [7,2,5,10,8]
 **m** = 2
 
 Output:
-9
+18
 
 Explanation:
 There are four ways to split **nums** into two subarrays.
-The best way is to split it into **[1,2,3]** and **[4,5]**,
-where the largest sum among the two subarrays is only 9.
+The best way is to split it into **[7,2,5]** and **[10,8]**,
+where the largest sum among the two subarrays is only 18.
 </pre>
 
 <div>
@@ -32,4 +32,4 @@ where the largest sum among the two subarrays is only 9.
 
 <div id="tags" class="btn btn-xs btn-warning">Show Tags</div>
 
-<span class="hidebutton">[Binary Search](/tag/binary-search/)</span></div>
+<span class="hidebutton">[Binary Search](/tag/binary-search/) [Dynamic Programming](/tag/dynamic-programming/)</span></div>
